@@ -1,0 +1,4 @@
+library-react/node_modules/**/*
+library-node/node_modules/**/*
+app-react/node_modules/**/*
+app-react/dist

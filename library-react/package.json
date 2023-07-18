@@ -1,0 +1,35 @@
+{
+  "name": "library-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "storybook dev -p 6006"
+  },
+  "keywords": [],
+  "author": "Francesco",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "eslint": "^8.45.0",
+    "library-node": "file:../library-node",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.22.7",
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/react-vite": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/core-js": "^2.5.5",
+    "prop-types": "^15.8.1",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.27"
+  }
+}
